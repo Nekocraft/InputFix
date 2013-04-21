@@ -162,5 +162,9 @@ pip-log.txt
 # Mac crap
 .DS_Store
 
+# Forge
 forge/
+# MCP
 mcp/
+# Maven
+target/
