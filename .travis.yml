@@ -1,6 +1,7 @@
 language: java
 jdk:
   - oraclejdk7
+  - oraclejdk6
 script: 
   - mvn mvn initialize -P -built
   - mvn clean package -DbuildNumber=${buildNumber}
